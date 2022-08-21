@@ -41,25 +41,25 @@ For the next customer you will have to change the ID, copy this example:
 
 **GET** for this request type you have to use the Get type and the id of the customer or customer's account  
 
-- this request will get the information of a specific customer ------  **/customer/{acctID}**   
+- this request will get the information of a specific customer ------  **localhost:8080/customer/{acctID}**   
 
-- this request will get the balance information of a specific customer's account ------ **/account/{acctID}/balance**   
+- this request will get the balance information of a specific customer's account ------ **localhost:8080/account/{acctID}/balance**   
 
-- this request will get the information of a specific account ------ **/account/{acctID}**
+- this request will get the information of a specific account ------ **localhost:8080/account/{acctID}**
 
-- this request will get the information of the transaction history of the customer ------ **/account/{acctID}/logs**
+- this request will get the information of the transaction history of the customer ------ **localhost:8080/account/{acctID}/logs**
 
 **DELETE** for this type of request:
 
-- this request will delete the customer information and the customer's account ------ **/customer/{acctID}**   
+- this request will delete the customer information and the customer's account ------ **localhost:8080/customer/{acctID}**   
 
-- this request will delete the customer's account ------ **/account/{acctID}**
+- this request will delete the customer's account ------ **localhost:8080/account/{acctID}**
 
 
 **PUT** for this type of request:
 
-- this request will deposit an amount into the customer's account of your choice ------ **/account/{acctID}/deposit/{amount}**  
+- this request will deposit an amount into the customer's account of your choice ------ **localhost:8080/account/{acctID}/deposit/{amount}**  
 
-- this request will withdraw an amont from the customer's acount of your choice  ------ **/account/{acctID}/withdraw/{amount}**  
+- this request will withdraw an amont from the customer's acount of your choice  ------ **localhost:8080/account/{acctID}/withdraw/{amount}**  
 
-- this request will transfer an amount from the customer's account to another one of your choice ------ **/account/{acctID}/transfer/{destAcctID}/{amount}**
+- this request will transfer an amount from the customer's account to another one of your choice ------ **localhost:8080/account/{acctID}/transfer/{destAcctID}/{amount}**
